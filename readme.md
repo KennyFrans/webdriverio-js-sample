@@ -2,7 +2,7 @@
 # 🧪 WebdriverIO JavaScript Sample (Minimal Setup)
 
 A lightweight, no-frills end-to-end UI test automation setup using **WebdriverIO v9**, plain **JavaScript**, and simple **Mocha-style testing**.  
-This repo is intentionally minimal, avoiding TypeScript, heavy frameworks, or complex configurations
+This repo is intentionally minimal, avoiding TypeScript, heavy frameworks, or complex configurations but very ideal for ready-real-use testing purposes 😊
 
 ---
 
