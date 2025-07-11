@@ -1,4 +1,5 @@
 const allure = require('allure-commandline')
+const path = require('path')
 
 const config = {
     //
@@ -22,7 +23,9 @@ const config = {
     // The path of the spec files will be resolved relative from the directory of
     // of the config file unless it's absolute.
     //
-    specs: ['./tests/**/*.spec.js'],
+    specs: [
+        path.join(process.cwd(), './tests/**/*.spec.js')
+    ],
     // Patterns to exclude.
     exclude: [
         // 'path/to/excluded/files'

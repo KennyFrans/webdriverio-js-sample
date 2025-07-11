@@ -14,6 +14,7 @@
   "scripts": {
     "wdio": "wdio run ./wdio.conf.js",
     "test-chrome": "cross-env TEST_ENV=dev wdio ./src/config/wdio.chrome.conf.ts --spec ./tests/form/login.spec.js",
-    "test-edge": "cross-env TEST_ENV=dev wdio ./src/config/wdio.chrome.conf.ts --spec ./tests/form/login.spec.js"
+    "test-edge": "cross-env TEST_ENV=dev wdio ./src/config/wdio.chrome.conf.ts --spec ./tests/form/login.spec.js",
+    "test-chrome-headless": "cross-env TEST_ENV=dev wdio ./src/config/wdio.chrome-headless.conf.ts --spec ./tests/form/login.spec.js"
   }
 }
